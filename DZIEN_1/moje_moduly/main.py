@@ -1,3 +1,10 @@
+# import prosta_funkcja
+# import prosta_funkcja as pf
+from prosta_funkcja import info
+
+#duplikowanie linii/bloku => CTRL+D
+#szybkie komentowanie => CTRL+/
+
 #lista
 mixlist= [4,6,3.333,-0.0094,True,0x004,"Lublin","ABC"]
 print(mixlist)
@@ -47,3 +54,7 @@ osoba = {
 
 print(osoba)
 print(osoba["nazwisko"])
+
+print(" użycie funkcji prosta_funkcja() ---->")
+komunikat = "wiadomośc 53563S"
+print(info(komunikat))
